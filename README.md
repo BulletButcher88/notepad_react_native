@@ -6,8 +6,6 @@ Basic IOS / android app
 - CRUD note pad
 - Link / page to clients and categories
 
-[Link to the video](./assets/RecordIt-8A0AE5E0-3E1D-4A91-97A7-567487A7A768.MP4)
-
 # Getting Started
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
