@@ -6,9 +6,9 @@ Basic IOS / android app
 - CRUD note pad
 - Link / page to clients and categories
 
-<img src="./assets/IMG_1813.PNG" width="200" height="200" />
-<img src="./assets/IMG_1814.PNG" width="200" height="200" />
-<img src="./assets/IMG_1815.PNG" width="200" height="200" />
+<img src="./assets/IMG_1813.PNG" width="120" height="250" />
+<img src="./assets/IMG_1814.PNG" width="120" height="250" />
+<img src="./assets/IMG_1815.PNG" width="120" height="250" />
 
 # Getting Started
 
