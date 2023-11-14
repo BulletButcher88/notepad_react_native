@@ -6,10 +6,10 @@ Basic IOS / android app
 - CRUD note pad
 - Link / page to clients and categories
 
-<div style='display: flex; flex-direction: row; justify-content: space-between; width: 100%'>
-<img src="./assets/IMG_1813.PNG" width="120" height="250" alt="First Image" style="padding-right: 50px;"/>
-<img src="./assets/IMG_1814.PNG" width="120" height="250" alt="Second Image" style="padding-right: 50px;"/>
-<img src="./assets/IMG_1815.PNG" width="120" height="250" alt="Third Image" style="padding-right: 50px;"/>
+<div style='display: flex; flex-direction: row; justify-content: space-between'>
+<img src="./assets/IMG_1813.PNG" width="240" height="500" alt="First Image" style="padding-right: 50px;"/>
+<img src="./assets/IMG_1814.PNG" width="240" height="500" alt="Second Image" style="padding-right: 50px;"/>
+<img src="./assets/IMG_1815.PNG" width="240" height="500" alt="Third Image" style="padding-right: 50px;"/>
 </div>
 
 # Getting Started
