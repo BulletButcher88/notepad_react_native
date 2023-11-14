@@ -22,6 +22,7 @@ const CreateNewNoteButton = ({setModelVisable}) => {
           alignItems: 'center',
           borderWidth: 1,
           borderColor: '#fff',
+          backgroundColor: 'black',
         }}>
         <Icon name="plus" type="font-awesome-5" size={34} color="#FFF" />
       </View>
@@ -34,7 +35,7 @@ const App = () => {
 
   return (
     <NoteProvider>
-      <View style={{flex: 1, backgroundColor: '#fff'}}>
+      <View style={{flex: 1, backgroundColor: 'black'}}>
         <NoteFlatlist />
         <NoteComponent
           item={null}
@@ -55,7 +56,7 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 55,
-    backgroundColor: '#FFC63E',
+    backgroundColor: '#f5ac00',
     position: 'absolute',
     bottom: 30,
     right: 30,

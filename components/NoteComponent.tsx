@@ -159,8 +159,8 @@ const NoteComponent = ({item, modelVisable, setModelVisable}) => {
           <Icon
             name="arrow-left"
             type="font-awesome-5"
-            size={28}
-            color="#FFC63E"
+            size={24}
+            color="#aaa"
           />
         </TouchableOpacity>
         <View style={styles.modalView}>
@@ -174,14 +174,14 @@ const NoteComponent = ({item, modelVisable, setModelVisable}) => {
             }}>
             <TextInput
               placeholder="Title..."
-              placeholderTextColor={'#999'}
+              placeholderTextColor="#eee"
               value={noteTitle}
               onChangeText={setNoteTitle}
               style={styles.input}
             />
             <TextInput
               placeholder="Write note content..."
-              placeholderTextColor={'#999'}
+              placeholderTextColor={'#eee'}
               value={noteContent}
               onChangeText={setNoteContent}
               style={styles.inputContent}
@@ -204,7 +204,7 @@ const NoteComponent = ({item, modelVisable, setModelVisable}) => {
                 type="material"
                 iconName="delete"
                 iconColor="#fff"
-                style={{backgroundColor: '#DC5757'}}
+                style={{backgroundColor: '#B22222'}}
                 onPress={handleDeleteNote}
               />
             )}
@@ -212,7 +212,7 @@ const NoteComponent = ({item, modelVisable, setModelVisable}) => {
               type="material"
               iconName="save"
               iconColor="#fff"
-              style={{backgroundColor: '#9ADC57'}}
+              style={{backgroundColor: '#188ef5'}}
               onPress={handleSaveNote}
             />
           </View>
@@ -228,11 +228,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
-    marginTop: Platform.OS === 'android' ? 0 : 80,
+    backgroundColor: 'black',
+    paddingTop: Platform.OS === 'android' ? 0 : 80,
   },
   input: {
     marginBottom: 10,
-    backgroundColor: 'white',
     width: '100%',
     height: 60,
     padding: 10,
@@ -241,30 +241,20 @@ const styles = StyleSheet.create({
     borderColor: '#ddd',
     fontSize: 24,
     fontWeight: '600',
+    color: '#fff',
   },
   inputContent: {
     marginBottom: 10,
-    backgroundColor: 'white',
     height: 300,
     padding: 10,
     marginVertical: 8,
     borderWidth: 1,
     borderColor: '#ddd',
+    color: '#fff',
+
     borderRadius: 5,
     fontSize: 18,
     textAlignVertical: Platform.OS === 'android' ? 'top' : 'auto',
-  },
-  btnAddNote: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 10,
-    width: 60,
-    height: 60,
-    borderRadius: 55,
-    backgroundColor: '#FFC63E',
-    position: 'absolute',
-    bottom: 30,
-    right: 30,
   },
   btnBackspace: {
     flexDirection: 'row',

@@ -12,12 +12,19 @@ const NoteFlatlist = () => {
           flex: 1,
           justifyContent: 'flex-end',
           alignItems: 'center',
+          backgroundColor: 'black',
         }}>
         <Image
-          source={require('../assets/caremaster_logo.jpeg')}
+          source={require('../assets/loading.gif')}
           style={{width: 150, height: 150}}
         />
-        <Text style={{fontSize: 16, fontWeight: '400', marginVertical: 10}}>
+        <Text
+          style={{
+            fontSize: 16,
+            fontWeight: '400',
+            marginVertical: 10,
+            color: '#f5ac00',
+          }}>
           Currently there are no notes
         </Text>
       </View>

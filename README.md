@@ -6,6 +6,10 @@ Basic IOS / android app
 - CRUD note pad
 - Link / page to clients and categories
 
+<img src="./assets/IMG_1813.PNG" width="200" height="200" />
+<img src="./assets/IMG_1814.PNG" width="200" height="200" />
+<img src="./assets/IMG_1815.PNG" width="200" height="200" />
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
