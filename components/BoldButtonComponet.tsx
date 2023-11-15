@@ -7,6 +7,10 @@ const BoldButtonComponet = ({onPress, type, iconName, iconColor, style}) => {
     <TouchableOpacity style={[styles.btnAddNote, {...style}]} onPress={onPress}>
       <View
         style={{
+          width: 70,
+          height: 50,
+          borderWidth: 1,
+          backgroundColor: 'black',
           justifyContent: 'center',
           alignItems: 'center',
           borderColor: iconColor,
