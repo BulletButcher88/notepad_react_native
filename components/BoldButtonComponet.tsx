@@ -14,6 +14,7 @@ const BoldButtonComponet = ({onPress, type, iconName, iconColor, style}) => {
           justifyContent: 'center',
           alignItems: 'center',
           borderColor: iconColor,
+          borderRadius: 60,
         }}>
         <Icon name={iconName} type={type} size={28} color={iconColor} />
       </View>
@@ -29,5 +30,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: 80,
     height: 60,
+    borderRadius: 60,
   },
 });
